@@ -23,7 +23,7 @@ public class GasteMenosApplication {
             operacaoRepository.deleteAll();
 
             Operacao operacao = new Operacao();
-            operacao.setCategoria("Debito");
+            operacao.setCategoria("Despesa");
             operacao.setDescricao("teste");
             operacao.setValor(new BigDecimal(10));
             operacaoRepository.save(operacao);
